@@ -11,6 +11,9 @@
 # production
 /build
 
+#secret
+/src/Component/Login/Firebase.Config.js
+
 # misc
 .DS_Store
 .env.local
