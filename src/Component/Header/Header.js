@@ -16,7 +16,7 @@ const Header = () => {
                     <Link to="/review">Order Review</Link>
                     <Link to="/orders">Order History</Link>
                     { loggedInUser.email && 
-                        <p style={{display:'inline-block', color:'white', margin:'0 1%'}}>
+                        <p style={{display:'inline-block', margin:'0 1%', color:'white'}}>
                             Welcome, {loggedInUser.name}
                             
                             <button onClick={()=>setLoggedInUser({})} style={{ margin:'0 2px'}}> Sign Out

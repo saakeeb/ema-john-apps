@@ -1,10 +1,6 @@
 import React from 'react';
 import { createContext, useState } from 'react';
-import { BrowserRouter as 
-  Router,
-  Switch,
-  Route,
-  Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import './App.css';
 import Header from './Component/Header/Header';
 import Inventory from './Component/Inventory/Inventory';
